@@ -13,6 +13,15 @@
 		3D0716042A2210690083F568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0716022A2210690083F568 /* Main.storyboard */; };
 		3D0716062A22106B0083F568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0716052A22106B0083F568 /* Assets.xcassets */; };
 		3D0716092A22106B0083F568 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0716072A22106B0083F568 /* LaunchScreen.storyboard */; };
+		3D0716112A2213720083F568 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0716102A2213720083F568 /* LoginViewController.swift */; };
+		3D0716132A2215DD0083F568 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0716122A2215DD0083F568 /* CreateAccountViewController.swift */; };
+		3D0716152A2218C20083F568 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D0716142A2218C20083F568 /* GoogleService-Info.plist */; };
+		3D0716182A22191D0083F568 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3D0716172A22191D0083F568 /* FirebaseAuth */; };
+		3D07161A2A224C730083F568 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0716192A224C730083F568 /* HomeViewController.swift */; };
+		3D26D1752A2264FD005E8865 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D26D1742A2264FD005E8865 /* Constants.swift */; };
+		3D26D1772A226513005E8865 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D26D1762A226513005E8865 /* Utilities.swift */; };
+		3DC0B5EF2A2270F7000073A3 /* Orbital in Resources */ = {isa = PBXBuildFile; fileRef = 3DC0B5EE2A2270F7000073A3 /* Orbital */; };
+		F60EA0C4011AF208AA4C1EA1 /* Pods_Orbital.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D49CDEB62912A5CBF26D4F /* Pods_Orbital.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,16 @@
 		3D0716052A22106B0083F568 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D0716082A22106B0083F568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D07160A2A22106B0083F568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D0716102A2213720083F568 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3D0716122A2215DD0083F568 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		3D0716142A2218C20083F568 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3D0716192A224C730083F568 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3D26D1742A2264FD005E8865 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3D26D1762A226513005E8865 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		3DC0B5EE2A2270F7000073A3 /* Orbital */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Orbital; sourceTree = "<group>"; };
+		43D914FC9620274DA9F19FB7 /* Pods-Orbital.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orbital.release.xcconfig"; path = "Target Support Files/Pods-Orbital/Pods-Orbital.release.xcconfig"; sourceTree = "<group>"; };
+		62D49CDEB62912A5CBF26D4F /* Pods_Orbital.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Orbital.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA0C596C8BBF11AE1801311 /* Pods-Orbital.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orbital.debug.xcconfig"; path = "Target Support Files/Pods-Orbital/Pods-Orbital.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +50,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0716182A22191D0083F568 /* FirebaseAuth in Frameworks */,
+				F60EA0C4011AF208AA4C1EA1 /* Pods_Orbital.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30D37A16B0683146A2CF1DE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62D49CDEB62912A5CBF26D4F /* Pods_Orbital.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3D0715F02A2210690083F568 = {
 			isa = PBXGroup;
 			children = (
 				3D0715FB2A2210690083F568 /* Orbital */,
+				3DC0B5EE2A2270F7000073A3 /* Orbital */,
 				3D0715FA2A2210690083F568 /* Products */,
+				917BFFA23602001DD8AA2486 /* Pods */,
+				30D37A16B0683146A2CF1DE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,54 @@
 		3D0715FB2A2210690083F568 /* Orbital */ = {
 			isa = PBXGroup;
 			children = (
+				3D981CB42A2279B200756127 /* Media */,
 				3D0715FC2A2210690083F568 /* AppDelegate.swift */,
 				3D0715FE2A2210690083F568 /* SceneDelegate.swift */,
-				3D0716002A2210690083F568 /* ViewController.swift */,
+				3DD56F492A22559200036338 /* Helpers */,
+				3D07161B2A224C7C0083F568 /* View Controllers */,
 				3D0716022A2210690083F568 /* Main.storyboard */,
 				3D0716052A22106B0083F568 /* Assets.xcassets */,
 				3D0716072A22106B0083F568 /* LaunchScreen.storyboard */,
 				3D07160A2A22106B0083F568 /* Info.plist */,
+				3D0716142A2218C20083F568 /* GoogleService-Info.plist */,
 			);
 			path = Orbital;
+			sourceTree = "<group>";
+		};
+		3D07161B2A224C7C0083F568 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D0716122A2215DD0083F568 /* CreateAccountViewController.swift */,
+				3D0716102A2213720083F568 /* LoginViewController.swift */,
+				3D0716192A224C730083F568 /* HomeViewController.swift */,
+				3D0716002A2210690083F568 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3D981CB42A2279B200756127 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		3DD56F492A22559200036338 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3D26D1742A2264FD005E8865 /* Constants.swift */,
+				3D26D1762A226513005E8865 /* Utilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		917BFFA23602001DD8AA2486 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DA0C596C8BBF11AE1801311 /* Pods-Orbital.debug.xcconfig */,
+				43D914FC9620274DA9F19FB7 /* Pods-Orbital.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +145,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D07160D2A22106B0083F568 /* Build configuration list for PBXNativeTarget "Orbital" */;
 			buildPhases = (
+				1ECB24EE47687751CFA9EAA8 /* [CP] Check Pods Manifest.lock */,
 				3D0715F52A2210690083F568 /* Sources */,
 				3D0715F62A2210690083F568 /* Frameworks */,
 				3D0715F72A2210690083F568 /* Resources */,
+				BC4A2C7DDADAF5D032727A7B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Orbital;
+			packageProductDependencies = (
+				3D0716172A22191D0083F568 /* FirebaseAuth */,
+			);
 			productName = Orbital;
 			productReference = 3D0715F92A2210690083F568 /* Orbital.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +187,9 @@
 				Base,
 			);
 			mainGroup = 3D0715F02A2210690083F568;
+			packageReferences = (
+				3D0716162A22191D0083F568 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 3D0715FA2A2210690083F568 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +205,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D0716092A22106B0083F568 /* LaunchScreen.storyboard in Resources */,
+				3D0716152A2218C20083F568 /* GoogleService-Info.plist in Resources */,
+				3DC0B5EF2A2270F7000073A3 /* Orbital in Resources */,
 				3D0716062A22106B0083F568 /* Assets.xcassets in Resources */,
 				3D0716042A2210690083F568 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +214,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1ECB24EE47687751CFA9EAA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Orbital-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC4A2C7DDADAF5D032727A7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Orbital/Pods-Orbital-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Orbital/Pods-Orbital-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Orbital/Pods-Orbital-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D0715F52A2210690083F568 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0716132A2215DD0083F568 /* CreateAccountViewController.swift in Sources */,
+				3D0716112A2213720083F568 /* LoginViewController.swift in Sources */,
 				3D0716012A2210690083F568 /* ViewController.swift in Sources */,
 				3D0715FD2A2210690083F568 /* AppDelegate.swift in Sources */,
 				3D0715FF2A2210690083F568 /* SceneDelegate.swift in Sources */,
+				3D07161A2A224C730083F568 /* HomeViewController.swift in Sources */,
+				3D26D1772A226513005E8865 /* Utilities.swift in Sources */,
+				3D26D1752A2264FD005E8865 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +410,7 @@
 		};
 		3D07160E2A22106B0083F568 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA0C596C8BBF11AE1801311 /* Pods-Orbital.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +439,7 @@
 		};
 		3D07160F2A22106B0083F568 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43D914FC9620274DA9F19FB7 /* Pods-Orbital.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -358,6 +488,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D0716162A22191D0083F568 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D0716172A22191D0083F568 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D0716162A22191D0083F568 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3D0715F12A2210690083F568 /* Project object */;
 }

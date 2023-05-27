@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyB8Cb-7u71wK3JMwWhIsIJpcrdf5XrEuJc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>515799955408</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>orbitalbesties.Orbital</string>
+	<key>PROJECT_ID</key>
+	<string>orbital-29d26</string>
+	<key>STORAGE_BUCKET</key>
+	<string>orbital-29d26.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:515799955408:ios:750dc3e65073d0a2456bd5</string>
+</dict>
+</plist>
